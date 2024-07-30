@@ -8,7 +8,7 @@ pipeline {
         AWS_DEFAULT_REGION = 'us-west-2'
         GIT_REPO = 'https://github.com/manishaacharyahere/devops-session-project-24'
         GIT_BRANCH = 'main'
-        PATH = "/opt/homebrew/bin:${env.PATH}"
+        PATH = "/usr/local/bin:${env.PATH}"
     }
 
     stages {
